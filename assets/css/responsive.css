@@ -1,0 +1,101 @@
+/* =========== xlg device ====================== */
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .container-left{
+        flex-basis: 100%;
+    }
+    .container-right{
+        flex-basis: 100%;
+    }
+}
+/* =========== lg device ====================== */
+
+@media screen and (min-width: 991px) and (max-width: 1200px){
+      /* header section */
+    .header-content h1{
+        font-size: 40px;
+        padding-top: 120px;
+    }
+    .header-content p{
+        font-size: 14px;
+    }
+    /* testimonial section */
+    .container-left{
+        flex-basis: 100%;
+    }
+    .container-right{
+        flex-basis: 100%;
+    }
+    /* footer section  */
+    .media{
+        margin-bottom: 20px;
+    }
+}
+/* =================== medium device ====================== */
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+      /* header section */
+      .header-content h1{
+        font-size: 32px;
+        padding-top: 120px;
+    }
+    .header-content p{
+        font-size: 14px;
+    }
+    /* testimonial section */
+    .container-left{
+        flex-basis: 100%;
+    }
+    .container-right{
+        flex-basis: 100%;
+    }
+    /* footer section  */
+    .media{
+        margin-bottom: 20px;
+    }
+}
+/* =========== small device ====================== */
+
+@media screen and (min-width: 575px) and (max-width: 767px){
+     /* header section */
+     .header-content h1{
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+    /* testimonial section */
+    .container-left{
+        flex-basis: 100%;
+    }
+    .container-right{
+        flex-basis: 100%;
+    }
+    /* footer section  */
+    .media{
+        margin-bottom: 20px;
+    }
+}
+/* =========== xsmall device ====================== */
+
+@media screen and (min-width: 0px) and (max-width: 575px){
+    /* header section */
+    .header-content h1{
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+    /* testimonial section */
+    .container-left{
+        flex-basis: 100%;
+    }
+    .container-right{
+        flex-basis: 100%;
+    }
+    /* footer section  */
+    .media{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,291 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+/* bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-sm{
+    padding: 5px 10%;
+}
+/* start navbar section */
+header{
+    background: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    color: #fff;
+    max-width: 900px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
+.header-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #ebebec;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
+.header-content a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    background: #e84545;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+    margin-bottom: 80px;
+    transition: all 0.5s;
+}
+.navbar-brand h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #c1c2ca;
+}
+.navbar-brand span{
+    color: #66697e;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-nav .nav-link{
+    color: #c1c2ca;
+}
+.navbar-toggler-icon{
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+  }
+/* end navbar section */
+/* start work section */
+#work{
+    margin-top: 100px;
+}
+.work-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    text-align: center;
+}
+.work1 i{
+    font-size: 50px;
+    color: #e84545;
+}
+.work1 h6{
+    font-weight: bold;
+    padding: 5px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.work1 p{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+/* end work section  */
+/* start gallery section */
+#gallery{
+ margin-top: 70px;
+}
+.card-style{
+    overflow: hidden ;
+	position: relative;
+    --bs-card-border-radius: none;
+}
+.overlay{
+    cursor: pointer;
+	display: block;
+	transition: transform 0.5s;
+}
+.card-style:hover .layer{
+	height: 100%;
+}
+.card-style:hover img{
+	transform: scale(1.1);
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background:rgba(232, 69, 69,0.8);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5s;
+}
+/* end gallery section  */
+/* team section start */
+#team{
+    margin-top: 70px;
+}
+.card {
+    --bs-card-border-color: none;
+}
+.card-body {
+    padding: 0;
+}
+.card-body .card-title{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+.card-body .card-text{
+    font-size: 13px;
+    color: #e84545;
+    padding-bottom: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.card-body p{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+.fa-brands{
+    border: 1px solid #c6cacc;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #c6cacc;
+    transition: all 0.5s;
+}
+.fa-brands:hover{
+    transform: translateY(-5px);
+}
+/* team section end */
+/* start download-section */
+#download-section{
+    margin-top: 70px;
+    text-align: center;
+}
+.download-content h3{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+.download-content p{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.download-content a{
+    font-size: 14px;
+    background: #e84545;
+    padding: 12px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+/* end download-section */
+/* start testimonial section */
+#testimonial{
+    margin-top: 70px;
+}
+.container-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-left{
+    flex-basis: 45%;
+    /* background-image: url("../images/testimonial1.jpg");
+    height: 364px;
+    background-position: center;
+    background-size: cover; */
+}
+.container-left img{
+    width: 100%;
+}
+.container-right{
+    flex-basis: 55%;
+    background: #53354a;
+}
+.speach{
+    max-width: 750px;
+    padding: 70.8px 90px;
+    /* padding: 70.8px 90px; */
+}
+.speach p{
+    color: black;
+    font-size: 33px;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+}
+.speach .fa-solid {
+    font-size: 13px;
+}
+.small-q{
+    font-size: 12px !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/* end testimonial section */
+/* start footer section */
+#footer{
+    margin-top: 100px;
+    background: #3a3e64;
+    padding: 80px 0;
+}
+#footer h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#footer p{
+    color: #757893;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+footer{
+    background: #313454;
+    padding: 25px 0;
+    text-align: center;
+}
+.small-footer p span{
+    color: #757893;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.small-footer p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.small-footer p i{
+    color: #e84545;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+/* end footer section  */
