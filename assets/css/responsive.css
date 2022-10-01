@@ -1,9 +1,9 @@
+
 @media screen and (min-width: 1200px) and (max-width: 1400px){
     /* header section */
     .speach{
        
-        padding: 38px 90px;
-        /* padding: 70.8px 90px; */
+        padding: 33px 90px;
     }
 }
 /* =========== lg device ====================== */
@@ -47,6 +47,10 @@
     .container-right{
         flex-basis: 100%;
     }
+    .speach{
+        padding: 70.8px 50px;
+        /* padding: 70.8px 90px; */
+    }
     /* footer section  */
     .media{
         margin-bottom: 20px;
@@ -69,6 +73,10 @@
     }
     .container-right{
         flex-basis: 100%;
+    }
+    .speach{
+        padding: 70.8px 35px;
+        /* padding: 70.8px 90px; */
     }
     /* footer section  */
     .media{
@@ -96,5 +104,10 @@
     /* footer section  */
     .media{
         margin-bottom: 20px;
+    }
+    /* testimonial section  */
+    .speach{
+        padding: 70.8px 35px;
+        /* padding: 70.8px 90px; */
     }
 }
