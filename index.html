@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- back to top scroll -->
+    <link rel="stylesheet" href="assets/css/jquery.back-to-top.css">
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <!-- custom css -->
@@ -403,6 +406,24 @@
         </div>
     </footer>
     <!-- end small footer section  -->
+    <!-- back to top scroll -->
+    <a href="#" class="bck"></a>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery.back-to-top.js"></script>
+    <script>
+
+        $(function(){
+    
+    
+            $('.bck').backToTop({
+                iconName : 'fas fa-arrow-up',
+                fxName : 'rightToLeft'
+            });
+    
+        });
+    
+        </script>
+    <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     </script>
 </body>
