@@ -57,6 +57,10 @@ header{
     margin-bottom: 80px;
     transition: all 0.5s;
 }
+.header-content a:hover{
+    background: transparent;
+    border: 1px solid #e84545;
+}
 .navbar-brand h3{
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
@@ -145,6 +149,7 @@ header{
 /* team section start */
 #team{
     margin-top: 70px;
+    margin-bottom: 60px;
 }
 .card {
     --bs-card-border-color: none;
@@ -202,7 +207,14 @@ header{
     padding: 12px 30px;
     color: #fff;
     text-decoration: none;
+    transition: all 0.5s;
 }
+.download-content a:hover{
+    background: transparent;
+    border: 1px solid #e84545;
+    color: black;
+}
+.n
 /* end download-section */
 /* start testimonial section */
 #testimonial{
